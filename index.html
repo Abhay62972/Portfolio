@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay - Developer portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <div class="left">Portfeuille d'Abhay</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </Header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Abhay</span> <br>
+                and I am a <br>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="Background">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="time-pathway">
+                <svg viewBox="0 40 100 20" xmlns="http://www.w3.org/2000/svg">
+                    <path class="road" d="M10,50 100,50" stroke="#999" stroke-dasharray="3 3" />
+                    <a href="College.png">
+                        <g class="spot" data-spot="1" transform="translate(10, 50)">
+                            <image xlink:href="School.png" width="10" height="10" x="5" y="-10" />
+                        </g>
+                    </a>
+                    <a href="College.png">
+                        <g class="spot" data-spot="2" transform="translate(10, 50)">
+                            <image xlink:href="College.png" width="10" height="10" x="40" y="-10" />
+                        </g>
+                    </a>
+                </svg>
+            </div>
+            <input type="file" id="imageInput" style="display: none;" accept="image/*">
+        </section>
+        <hr>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="copy-right">
+            <p>&copy; 2023 Portfeuille d'Abhay. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'and Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
