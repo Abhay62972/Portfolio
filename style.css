@@ -64,26 +64,27 @@ nav ul li a:hover {
     width: auto;
 
 
-    }
+}
 
-    .leftsection .btn{
-        display: flex;
-        padding: 3px;
-        margin: 5px;
-        background: #21013b;
-        border: 2px solid white;
-        border-radius: 6px;
-        font-size: 20px;
-        cursor: pointer;
-        color: white;
-        height:auto;
-        width: auto;
+.leftsection .btn {
+    display: flex;
+    padding: 3px;
+    margin: 5px;
+    background: #21013b;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    height: auto;
+    width: auto;
 
-        }
+}
 
 .rightsection img {
     width: 80%;
     margin-top: 30px;
+    align-items: center;
 
 
 }
@@ -108,42 +109,113 @@ main hr {
 .secondsection h1 {
     font-size: 2rem;
 }
-  
-  .content {
+
+.content {
     /* Add styling for your main content area here */
     padding: 20px;
-  }
-  
-  .footer {
+}
+
+.footer {
     background-color: rgb(1, 1, 48);
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .social-media {
+}
+
+.social-media {
     margin-bottom: 10px;
-  }
-  
-  .social-media a {
+}
+
+.social-media a {
     display: inline-block;
     margin: 0 5px;
     font-size: 24px;
     color: #fff;
     text-decoration: none;
-  }
-  
-  .social-media a:hover {
+}
+
+.social-media a:hover {
     color: #007bff;
-  }
-  
-  .copy-right {
+}
+
+.copy-right {
     font-size: 14px;
     color: #fff;
-  }
-  
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Adjust the layout for iPhone 12 portrait orientation */
+    nav {
+        font-size: 10px;
+    }
+
+    .left {
+        font-size: 15px;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+    }
+
+    .firstsection {
+        flex-direction: row;
+    }
+
+    .leftsection {
+        text-align: center;
+        align-items: center;
+    }
+
+    .rightsection {
+        margin: 20px 0;
+        align-items: center;
+        display: none;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
+
+    .secondsection {
+        padding: 10px 0;
+    }
+
+    .time-pathway {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .social-media a {
+        margin: 0 3px;
+    }
+
+    .leftsection h2 {
+        font-size: 18px;
+    }
+
+    .button {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .responsive-image {
+        width: 80%;
+    }
+
+    
+}
