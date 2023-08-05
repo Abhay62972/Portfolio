@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(1, 1, 48);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    font-size: 1rem;
+    color: rgb(95, 95, 128);
+
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.leftsection {
+    font-size: 2.4rem;
+    margin-top: 100px;
+    width: 30%;
+
+
+}
+
+.leftsection .button {
+    display: flex;
+    height: auto;
+    width: auto;
+
+
+    }
+
+    .leftsection .btn{
+        display: flex;
+        padding: 3px;
+        margin: 5px;
+        background: #21013b;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        height:auto;
+        width: auto;
+
+        }
+
+.rightsection img {
+    width: 80%;
+    margin-top: 30px;
+
+
+}
+
+.firstsection div {
+    width: 30%;
+}
+
+main hr {
+    border: 0;
+    background: lavender;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+  
+  .content {
+    /* Add styling for your main content area here */
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: rgb(1, 1, 48);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #007bff;
+  }
+  
+  .copy-right {
+    font-size: 14px;
+    color: #fff;
+  }
+  
