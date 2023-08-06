@@ -15,7 +15,6 @@
     color: rgb(235, 94, 235);
 }
 
-/* Basic table styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -41,24 +40,6 @@ tbody tr:nth-child(even) {
     background-color: rgb(1, 1, 48);
 }
 
-
-/* Responsive styles for laptop screens */
-@media (max-width: 768px) {
-    table {
-        font-size: 14px;
-    }
-}
-
-/* Responsive styles for smartphone screens */
-@media (max-width: 480px) {
-    table {
-        font-size: 12px;
-    }
-    th, td {
-        padding: 5px;
-    }
-}
-
 li div img {
     width: 50%; 
     height: auto; 
@@ -71,11 +52,3 @@ li div img {
     justify-content: center;
     align-items: baseline;
   }
-
-  
-  @media (max-width: 480px) {
-    li div {
-      display: block;
-    }
-  }
-  

@@ -185,7 +185,7 @@ main hr {
     display: flex;
     height: auto;
     width: auto;
-   
+
 }
 
 .projects .btn {
@@ -225,7 +225,7 @@ main hr {
     height: auto;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     nav {
         font-size: 10px;
     }
@@ -239,31 +239,14 @@ main hr {
     }
 
     .firstsection {
-        flex-direction: row;
-    }
-
-    .leftsection {
-        text-align: center;
-        align-items: center;
+        flex-direction: column; 
+        display: none;
     }
 
     .rightsection {
         margin: 20px 0;
         align-items: center;
         display: none;
-    }
-
-    .rightsection img {
-        width: 80%;
-    }
-
-    .secondsection {
-        padding: 10px 0;
-    }
-
-    .time-pathway {
-        max-width: 100%;
-        overflow-x: auto;
     }
 
     .social-media a {
@@ -286,6 +269,80 @@ main hr {
     .responsive-image {
         width: 80%;
     }
+
+    body {
+        font-size: 14px;
+    }
+
+    /* Header */
+    .left, .right {
+        text-align: center;
+    }
+
+    /* Main */
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftsection {
+        padding: 20px;
+    }
+
+    /* Academics */
+    .table-container table {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-content {
+        justify-content: center;
+    }
+
+    .contact-details {
+        text-align: center;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 5px;
+    }
+
+    li div {
+        display: block;
+      }
+      .projects{
+        height: 80vh;
+      }
+
+      .academics{
+        min-height: 100vh;
+        display: none;
+      }
+
+      .leadership{
+        max-height: 140vh;
+      }
+
+      .courses{
+        max-height: 50vh;
+      }
+
+      .languages{
+        max-height: 30vh;
+      }
+      .one, .two{
+        display: none;
+      }
 
 
 }
