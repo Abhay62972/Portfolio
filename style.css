@@ -100,18 +100,109 @@ main hr {
     margin: 40px 84px;
 }
 
-.secondsection {
+.academics {
+    margin: auto;
+    max-width: 80vw;
+    height: 50vh;
+}
+
+.academics h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.languages {
+    margin: auto;
+    max-width: 80vw;
+    height: 30vh;
+}
+
+.languages h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.courses {
     margin: auto;
     max-width: 80vw;
     height: 80vh;
 }
 
-.secondsection h1 {
+.courses h1 {
     font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.courses-image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.courses-image img {
+    max-width: 48%;
+    margin-right: 2%;
+}
+
+.courses-image img:last-child {
+    margin-right: 0;
+}
+
+.leadership {
+    margin: auto;
+    max-width: 80vw;
+    height: 300vh;
+}
+
+.leadership h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.professional {
+    margin: auto;
+    max-width: 80vw;
+    height: 50vh;
+}
+
+.professional h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects {
+    margin: auto;
+    max-width: 80vw;
+    height: 50vh;
+}
+
+.projects h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects .button {
+    display: flex;
+    height: auto;
+    width: auto;
+   
+}
+
+.projects .btn {
+    display: flex;
+    padding: 3px;
+    margin: 5px;
+    background: #21013b;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    height: auto;
+    width: auto;
 }
 
 .content {
-    /* Add styling for your main content area here */
     padding: 20px;
 }
 
@@ -122,26 +213,7 @@ main hr {
     text-align: center;
 }
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.social-media {
-    margin-bottom: 10px;
-}
-
-.social-media a {
-    display: inline-block;
-    margin: 0 5px;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    color: #007bff;
-}
 
 .copy-right {
     font-size: 14px;
@@ -154,8 +226,6 @@ main hr {
 }
 
 @media only screen and (max-width: 480px) {
-
-    /* Adjust the layout for iPhone 12 portrait orientation */
     nav {
         font-size: 10px;
     }
@@ -217,5 +287,5 @@ main hr {
         width: 80%;
     }
 
-    
+
 }
