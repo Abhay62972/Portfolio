@@ -20,24 +20,26 @@
             <div class="left">Portfeuille d'Abhay</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Contacts</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="/">Gallery</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
                 </ul>
             </div>
         </nav>
     </Header>
 
     <main>
-       <section class="firstsection">
+        <section class="firstsection" id="Home">
             <div class="leftsection">
                 Hi, My name is <span class="purple">Abhay</span> <br>
-                and I am a <br>
+                and I am <br>
                 <span id="element"></span>
                 <div class="button">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">Visit Github</button>
+                    <a href="https://drive.google.com/file/d/1Mqrv3_2jfTlSFAsmnzsOtZOzplJPwV0B/view?usp=drivesdk"
+                        target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/Abhay62972" target="_blank"><button class="btn">Visit
+                            Github</button></a>
                 </div>
 
             </div>
@@ -45,49 +47,167 @@
             <div class="rightsection">
                 <img src="bg.png" alt="Background" class="responsive-image">
             </div>
-            
+
         </section>
         <hr>
-        <section class="secondsection">
-            <span class="gray">What I have done so far</span>
-            <h1>Work Experience</h1>
-            <div class="time-pathway">
-                <svg viewBox="0 40 100 20" xmlns="http://www.w3.org/2000/svg">
-                    <path class="road" d="M10,50 100,50" stroke="#999" stroke-dasharray="3 3" />
-                    <a href="College.png">
-                        <g class="spot" data-spot="1" transform="translate(10, 50)">
-                            <image xlink:href="School.png" width="10" height="10" x="5" y="-10" />
-                        </g>
-                    </a>
-                    <a href="College.png">
-                        <g class="spot" data-spot="2" transform="translate(10, 50)">
-                            <image xlink:href="College.png" width="10" height="10" x="40" y="-10" />
-                        </g>
-                    </a>
-                </svg>
+        <section class="academics" id="About">
+            <h1> My Academics</h1>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Examination</th>
+                            <th>Institution Name</th>
+                            <th>Passing Year</th>
+                            <th>Percentage</th>
+                            <th>Marksheet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class 10th</td>
+                            <td>Blossom Senior Secondary School </td>
+                            <td>2019</td>
+                            <td>97.6%</td>
+                            <td><a href="link_to_your_class_10_marksheet.pdf" target="_blank">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Class 12th</td>
+                            <td>Blossom Senior Secondary School </td>
+                            <td>2021</td>
+                            <td>97.2%</td>
+                            <td><a href="link_to_your_class_12_marksheet.pdf" target="_blank">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>Graduation(B.Tech)</td>
+                            <td>Madan Mohan Malaviya University of Technology</td>
+                            <td>2026</td>
+                            <td>CGPA()</td>
+                            <td><a href="link_to_your_Graduation_marksheet.pdf" target="_blank">View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <input type="file" id="imageInput" style="display: none;" accept="image/*">
+
         </section>
         <hr>
+        <section class="languages">
+            <h1>Languages</h1>
+            <ul>
+                <li>
+                    <h3>English - Fluent</h3>
+                </li>
+                <li>
+                    <h3>Hindi - Native</h3>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="courses">
+            <h1>Courses and Workshops</h1>
+            <ul>
+                <li>
+                    <h2>RC Fixed Wing Aeromodelling Workshop-SAE MMMUT</h2>
+                    <div class="courses-image">
+                        <img src="Aero 1.jpg" alt="Certificate">
+                        <img src="Aero 2.jpg" alt="Certificate">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="leadership">
+            <h1>Leadership Experience</h1>
+            <ul>
+                <li>
+                    <h2>Team Lead - HACKFEST 23 by IEEE-SB MMMUT</h2>
+                    <div>
+                        <img src="HACKFEST.jpg" alt="Certificate">
+                    </div>
+                </li>
+                <li>
+                    <h2>Team Lead - Tech Manch Event by Robotics Club MMMUT</h2>
+                    <div>
+                        <img src="Tech Manch.jpg" alt="Certificate">
+                    </div>
+                </li>
+                <li>
+                    <h2>Team Lead - Tech Prastuti Event by IEEE-SB MMMUT</h2>
+                    <div>
+                        <img src="Tech Prastuti.jpg" alt="Certificate">
+                    </div>
+                </li>
+                <li>
+                    <h2>Team Lead - Tech Czar Event by SAE MMMUT</h2>
+                    <div>
+                        <img src="Tech Czar.jpg" alt="Certificate">
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <hr>
+        <!-- <section class="professional">
+            <h1>Professional Development</h1>
+            <ul>
+                <li>Certified Scrum Master - Scrum Alliance</li>
+                <li>Python Programming Certification - Coursera</li>
+                <li>UX/UI Design Workshop - Design Academy</li>
+            </ul>
+        </section> -->
+        <!-- <hr> -->
+        <section class="projects">
+            <h1>Personal Projects</h1>
+            <ul>
+                <li>
+                    <h2>Temperature Converter - My First Project</h2>
+                    <div class="button">
+                        <a href="https://temp-converter-project.netlify.app/" target="_blank"><button class="btn">Visit
+                                Website</button></a>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio Website - Created a personal website to showcase my work and skills.</h2>
+                    <div class="button">
+                        <a href="https://portfolio-abhay-pratap-chaurasiya.netlify.app/" target="_blank"><button
+                                class="btn">Visit
+                                Website</button></a>
+                    </div>
+                </li>
+                <li>
+                    <h2>Educational Website - Developed an education site for student's help.</h2>
+                    <div class="button">
+                        <a href="https://portfolio-abhay-pratap-chaurasiya.netlify.app/" target="_blank"><button
+                                class="btn">Visit Website</button></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <hr>
+
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="Contacts">
         <div class="footer-content">
-          <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-          <div class="copy-right">
-            <p>&copy; 2023 Portfeuille d'Abhay. All rights reserved.</p>
-          </div>
+            <a href="https://github.com/Abhay62972" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/Abhay62972" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Abhay62972" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/Abhay62972" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-      </footer>
+        <div class="contact-details">
+            <p>Email: abhay629725426@gmail.com</p>
+            <p>Phone: +91 8931957637</p>
+        </div>
+        <div class="copy-right">
+            <p>&copy; 2023 Portfeuille d'Abhay. All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Developer.', 'Graphic Designer.', 'and Video Editor.'],
+            strings: ['a Web Developer.', 'a Graphic Designer.', 'and a Video Editor.'],
             typeSpeed: 50,
         });
     </script>
